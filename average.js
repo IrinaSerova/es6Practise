@@ -6,7 +6,7 @@
 
 function average(...nums) {
 	let average = 0;
-	for (num of nums){
+	for (const num of nums){
 		average += num/nums.length;
 	}
     return = average;
